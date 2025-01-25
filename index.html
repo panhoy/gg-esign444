@@ -1,59 +1,58 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Download Button</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #000000;
+    }
+
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      text-decoration: none;
+      background: linear-gradient(90deg, #00ff15, #d10092);
+      border: none;
+      border-radius: 50px;
+      box-shadow: 0 4px 6px rgba(151, 149, 149, 0.534);
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .download-btn:hover {
+      background: linear-gradient(90deg, #00d10a, #007bff);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .download-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .download-btn svg {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
 </head>
 <body>
-
-
-<div class="container">
-    <header>
-        <div class="logo">
-           <img src="photo/logo.avif" alt="">
-        </div>
-    </header>
-    <div class="container2">
-        <header>
-
-              <!-- menu -->
-
-
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="">shoes</a>
-                    </li>
-                    <li>
-                        <a href="">hoodie</a>
-                    </li>
-                    <li>
-                        <a href="">siple</a>
-                    </li>
-                    <li>
-                        <a href="">khor</a>
-                    </li>
-                </ul>
-            </div>
-        </header>
-
-        <div class="content">
-            <div class="box1">
-                1
-            </div>
-            <div class="box2">
-                <a href="https://ipa.ipasign.cc:2052/download/98954b46-452a-ec6b-1177-3629a8ea368e/20250125071433718">
-                    <button>
-                        buy
-                    </button>
-                </a>
-            </div>
-    </div>
-    
-</div>
-
-
-    <script src="js/mian.js"></script>
+  <a href="https://ipa.ipasign.cc:2052/download/d40ecc59-976a-0424-2de1-7b3928ca207a/20250125020600489" class="download-btn" download>
+    Download Scarlet
+  </a>
 </body>
 </html>
